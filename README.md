@@ -1,4 +1,4 @@
-# FloodCut
+# FloodCut 
 
 **Choosing exactly k of n sites with fixed-Hamming-weight QAOA in Qiskit, on a synthetic multi-objective scenario.**
 
@@ -28,9 +28,9 @@ Pick `k` of `n` candidate diversion sites (3 of 10, or 3 of 12) while trading of
 
 ## Run
 
-```bash
-pip install -r requirements.txt && pip install -e .
-pytest                                  # 83 checks, incl. an end-to-end quantum smoke test
+```bash 
+pip install -r requirements.txt && pip install -e . 
+pytest                                  # 83 checks, incl. an end-to-end quantum smoke testing 
 python -m floodcut quick                # all four methods, live
 streamlit run app/streamlit_app.py      # interactive demo
 ```
